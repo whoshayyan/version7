@@ -25,3 +25,6 @@ Route::get('/home', function(){
 });
 Route::get('/control' , 'hayyan@index');
 Route::get('/home/{id}' , 'hayyan@show');
+Route::get('users/{id}', function ($id) {
+
+});
